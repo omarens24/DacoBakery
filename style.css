@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+/* inicio del body */
+body {
+  background-color: beige;
+  background-image: linear-gradient(to right, #f3c6c6, beige);
+}
+
+.header {
+  z-index: 5;
+  width: 100%;
+  height: 20%;
+  background-color: black;
+  color: cadetblue;
+}
+.header h1 {
+  color: darkslategrey;
+}
+.header h2 {
+  color: darkslategrey;
+}
+.header .navbar {
+  color: cadetblue;
+  text-align: center;
+  background-color: cadetblue;
+  width: 100%;
+  height: 20%;
+}
+
+/* inicio de index */
+/* Clases de Bootstrap */
+.carousel--inner {
+  width: 100%;
+  height: 60vh;
+  background-position: center;
+}
+.carousel--inner .car__1 {
+  height: 200px;
+  background-image: url(../img/Daco1.jfif);
+  /* para centrarla bien */
+  background-position: center;
+  /* Para que ocupe todo el contenedor */
+  background-size: cover;
+}
+.carousel--inner .car__2 {
+  height: 200px;
+  background-image: url(../img/Daco10.jpg);
+  /* para centrarla bien */
+  background-position: center;
+  /* Para que ocupe todo el contenedor */
+  background-size: cover;
+}
+.carousel--inner .car__3 {
+  height: 200px;
+  background-image: url(../img/Daco7.jpg);
+  /* para centrarla bien */
+  background-position: center;
+  /* Para que ocupe todo el contenedor */
+  background-size: cover;
+}
+.carousel--inner .car__4 {
+  height: 200px;
+  background-image: url(../img/Daco11.jpg);
+  /* para centrarla bien */
+  background-position: center;
+  /* Para que ocupe todo el contenedor */
+  background-size: cover;
+}
+
+/* inicio sobre mi */
+.foto__Principal {
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  border: 10px inset;
+  border-color: darkslategrey;
+}
+
+/* inicio de servicios */
+/* Fin de servicios */
+/* inicio catalogo */
+.img__Catalogo {
+  padding: 4em;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 2s;
+}
+.img__Catalogo .postres--Variados:hover {
+  margin: 30px;
+  transform: rotate(2 turns);
+}
+.img__Catalogo .croissant {
+  margin: 30px;
+}
+.img__Catalogo .donut {
+  margin: 30px;
+}
+
+/* inicio de contacto */
+.content {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  box-sizing: border-box;
+  /* CONTACT INFO */
+  /* LARGE SIZE */
+}
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+.content .contactanos {
+  text-align: center;
+  font-size: 3em;
+  margin: 15px;
+}
+.content .contact-form {
+  background: cadetblue;
+  margin: 100px;
+}
+.content .contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content .contact-form form label {
+  display: block;
+}
+.content .contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+.content .contact-form form .block {
+  grid-column: 1/3;
+}
+.content .contact-form form button, .content .contact-form form input, .content .contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid black;
+}
+.content .contact-form form button {
+  background: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.content .contact-form form button button:hover, .content .contact-form form button button:focus {
+  background: black;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+.content .contact-info {
+  background: black;
+}
+.content .contact-info h4,
+.content .contact-info ul,
+.content .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+@media only screen and (min-width: 700px, 360px) {
+  .content .contact-info h4,
+.content .contact-info ul,
+.content .contact-info p {
+    text-align: left;
+  }
+}
+
+/* fin de contacto */
+/* fin del body */
+/* inicio del footer */
+.footer {
+  color: cadetblue;
+  background-color: black;
+  padding: 1em 4em;
+}
+.footer .title__footer {
+  text-align: center;
+  padding: 0.5em 0;
+  border-bottom: 1px solid yellow;
+}
+
+iframe,
+.footer ul {
+  padding: 1em;
+  color: cadetblue;
+}
+iframe i,
+.footer ul i {
+  padding: 0.5em;
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: cadetblue;
+  text-decoration: none;
+}
+footer a a:hover {
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
