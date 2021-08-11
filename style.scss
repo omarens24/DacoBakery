@@ -92,9 +92,18 @@ body {
 
 /* inicio sobre mi */
 
+.nombre1{
+    text-align: center;
+    color: darkslategrey;
+    margin-top: 60px;
+}
+.cheff{
+    text-align: center;
+    color: darkslategrey;
+}
 .foto__Principal {
     margin-left: 400px;
-    margin-top: 200px;
+    margin-top: 40px;
     margin-bottom: 50px;
 
     border: 10px inset;
@@ -115,19 +124,29 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: all 2s;
+    // margin-left: 1em;
+    text-align: center;
 
-    .postres--Variados:hover {
-        margin: 30px;
-        transform: rotate(2 turns);
+    .postres--Variados {
+        margin: 35px;
 
     }
 
     .croissant {
-        margin: 30px;
+        margin: 35px;
     }
 
     .donut {
-        margin: 30px;
+        margin: 35px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .img__Catalogo{
+        height: initial;
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        
     }
 }
 
@@ -205,16 +224,19 @@ body {
         text-align: center;
         margin: 0 0 1rem 0;
     }
-
+}
     /* LARGE SIZE */
-    @media only screen and (min-width: 700px, 360px) {
-        .contact-info h4,
-        .contact-info ul,
-        .contact-info p {
-            text-align: left;
+    @media only screen and (max-width: 720px) {
+        .content 
+        .contact-form {
+            margin: 1em;
+            form {
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
-}
+
 
 /* fin de contacto */
 
