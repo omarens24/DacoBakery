@@ -13,7 +13,7 @@ html {
 
 /* inicio del body */
 body {
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/Fondo.jpg);
   margin: 0px;
   padding: 0px;
 }
@@ -199,8 +199,6 @@ h1 {
   background-size: cover;
 }
 
-/* inicio de servicios */
-/* Fin de servicios */
 /* inicio catalogo */
 .img__Catalogo {
   padding: 4em;
